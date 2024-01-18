@@ -1,0 +1,44 @@
+.body {
+  background-color: #D8D8D8;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* .section {
+} */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.inout-text {
+  width: 400px;
+  height: 200px;
+  border: none;
+  background-color: #A5A5A5;
+}
+
+.submit__btn {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #BCFD4C;
+  color: black;
+  font-size: 22px;
+}
+
+.submit__btn:hover {
+  opacity: 60%;
+}
