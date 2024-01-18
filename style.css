@@ -53,14 +53,18 @@
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .title__h1 {
-    font-size: 5vw; /* Заголовок для экранов шириной 768px */
+    font-size: 3vw; /* Заголовок для экранов шириной 768px */
+  }
+
+  .submit__btn {
+    padding: 8px;
   }
 }
 
-@media (min-width: 1440px) {
-  .title__h1 {
-    font-size: 3.5vw; /* Заголовок для экранов шириной 1440px */
+@media (max-width: 368px) {
+  .submit__btn {
+    padding: 5px;
   }
 }
